@@ -1,13 +1,11 @@
 .calculator-container {
-  width: 100%;
-  max-width: 420px;
+  width: 420px;
+  max-width: 100%;
   background: #1e293b;
   border-radius: 20px;
   padding: 25px;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
   color: white;
-  margin: 0 auto;
-  box-sizing: border-box;
 }
 
 .calculator-container h1 {
@@ -30,7 +28,6 @@
   word-break: break-all;
   margin-bottom: 20px;
   border: 1px solid #334155;
-  box-sizing: border-box;
 }
 
 .display::-webkit-scrollbar {
@@ -80,7 +77,6 @@
 @media (max-width: 768px) {
   .calculator-container {
     width: 100%;
-    max-width: 420px;
     padding: 20px;
   }
 
@@ -98,8 +94,6 @@
 
 @media (max-width: 480px) {
   .calculator-container {
-    width: 100%;
-    max-width: 100%;
     padding: 16px;
     border-radius: 16px;
   }
