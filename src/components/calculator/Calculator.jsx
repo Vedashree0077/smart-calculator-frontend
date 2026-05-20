@@ -307,6 +307,8 @@ function Calculator() {
         marginTop: "20px",
         padding: "20px",
         flexWrap: "wrap",
+        width: "100%",
+        boxSizing: "border-box",
       }}
     >
       {/* Calculator */}
